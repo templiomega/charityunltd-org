@@ -1,4 +1,8 @@
 const hyperlink_btns = document.querySelectorAll(".hyperlinked");
+const alert_bar = document.getElementById("alert_bar");
+const alert_bar_span = document.getElementById("alert_bar_span");
+const rev = 3674;
+let sw = 0;
 hyperlink_btns.forEach(element => {
     switch (element.dataset.link) {
         case ("0"):
@@ -22,3 +26,16 @@ hyperlink_btns.forEach(element => {
             });
     }
 });
+setInterval(() => {
+    switch (sw) {
+        case 0:
+            alert_bar.innerHTML = `CLAIM PROCESS COMING <span id="alert_bar_span">2027</span>`;
+            sw = 1;
+            break;
+
+        case 1:
+            alert_bar.innerHTML = `CURRENT REVENUE: $<span id="alert_bar_span">${rev}</span>`;
+            sw = 0;
+            break;
+    }
+}, 3000);
