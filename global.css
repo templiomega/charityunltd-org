@@ -108,6 +108,9 @@ hr {
 .underline {
     text-decoration: underline;
 }
+.text_align_center {
+    text-align: center;
+}
 /*****************************************************
 *****************************************************/
 @media (max-aspect-ratio: 1/1) {
