@@ -5,8 +5,13 @@ html {
     height: 100%;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     min-height: 100%;
     margin: 0;
+    align-items: center;
+    justify-self: center;
     color: #F5F0E6;
     background: #11100F;
 }
