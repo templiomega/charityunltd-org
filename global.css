@@ -123,10 +123,17 @@ hr {
     text-align: center;
     font-size: 1.35rem;
     font-weight: bold;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.2em;
     color: #FFF9ED;
     background: #7e3640;
     border-bottom: 1px solid #8f2d34;
+}
+#alert_bar_span {
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #329432;
 }
 #contribute_btn {
     padding: 2%;
@@ -137,6 +144,9 @@ hr {
 }
 #contribute_btn:hover {
     background: #E0C57E;
+}
+#about_section {
+    text-align: justify;
 }
 #banner {
     width: 100%;
@@ -177,8 +187,12 @@ footer button:hover {
     margin: 0;
 }
 .underline {
-    text-decoration-color: #D4B56A;
+    color: #D4B56A;
     text-underline-offset: 0.25em;
+    text-decoration: underline;
+}
+.section_header {
+    font-size: 3rem;
 }
 .text_align_center {
     text-align: center;
