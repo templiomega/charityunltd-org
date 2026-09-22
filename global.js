@@ -16,5 +16,9 @@ hyperlink_btns.forEach(element => {
                 window.open("https://www.paypal.com/ncp/payment/BQD7PF6RFQW4E", "_blank");
             });
             break;
+        case ("3"):
+            element.addEventListener("click", () => {
+                window.open("https://templiomega.org", "_blank");
+            });
     }
 });
