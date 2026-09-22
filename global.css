@@ -56,7 +56,7 @@ footer {
     align-items: center;
     justify-self: center;
     text-align: center;
-    padding: 2%;
+    padding: 0 2% 2% 2%;
     color: #BDB4A4;
 }
 button {
